@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Departments>
+  <Department>
+    <ID></ID>
+    <Name></Name>
+  </Department>
+  
+  <Department>
+    <ID>3</ID>
+    <Name>Accounting</Name>
+  </Department>
+  <Department>
+    <ID>4</ID>
+    <Name>ACS Claims</Name>
+  </Department>
+  <Department>
+    <ID>5</ID>
+    <Name>Actuarial</Name>
+  </Department>
+  <Department>
+    <ID>6</ID>
+    <Name>Administration</Name>
+  </Department>
+  <Department>
+    <ID>7</ID>
+    <Name>Agency</Name>
+  </Department>
+  <Department>
+    <ID>8</ID>
+    <Name>Agency Accounting</Name>
+  </Department>
+  <Department>
+    <ID>9</ID>
+    <Name>Allied Medical</Name>
+  </Department>
+  <Department>
+    <ID>10</ID>
+    <Name>AMSI</Name>
+  </Department>
+  <Department>
+    <ID>11</ID>
+    <Name>Argo International</Name>
+  </Department>
+  <Department>
+    <ID>12</ID>
+    <Name>Argo Re</Name>
+  </Department>
+  <Department>
+    <ID>13</ID>
+    <Name>Argo Re IT</Name>
+  </Department>
+  <Department>
+    <ID>14</ID>
+    <Name>Argo Spec UW Excess Umb</Name>
+  </Department>
+  <Department>
+    <ID>15</ID>
+    <Name>Argo Spec UW Primary Cas</Name>
+  </Department>
+  <Department>
+    <ID>16</ID>
+    <Name>Business Development</Name>
+  </Department>
+  <Department>
+    <ID>17</ID>
+    <Name>Business Information Systems</Name>
+  </Department>
+  <Department>
+    <ID>18</ID>
+    <Name>Business Process Eng</Name>
+  </Department>
+  <Department>
+    <ID>19</ID>
+    <Name>Business Services / Business Information Systems</Name>
+  </Department>
+  <Department>
+    <ID>20</ID>
+    <Name>Business Services / Compliance &amp; Internal Audit</Name>
+  </Department>
+  <Department>
+    <ID>21</ID>
+    <Name>Business Services / Human Resources</Name>
+  </Department>
+  <Department>
+    <ID>22</ID>
+    <Name>Business Services / Reception</Name>
+  </Department>
+  <Department>
+    <ID>23</ID>
+    <Name>Business Services / Reinsurance</Name>
+  </Department>
+  <Department>
+    <ID>24</ID>
+    <Name>Business Support</Name>
+  </Department>
+  <Department>
+    <ID>25</ID>
+    <Name>Business Support / Binders + Loss Modelling</Name>
+  </Department>
+  <Department>
+    <ID>26</ID>
+    <Name>Business Support / Binders + U/W Support</Name>
+  </Department>
+  <Department>
+    <ID>27</ID>
+    <Name>Business Support / Binding Authority</Name>
+  </Department>
+  <Department>
+    <ID>28</ID>
+    <Name>Business Support / Loss Modelling</Name>
+  </Department>
+  <Department>
+    <ID>29</ID>
+    <Name>Business Support / Technical Services</Name>
+  </Department>
+  <Department>
+    <ID>30</ID>
+    <Name>Business Support / Technical Services / Credit Control</Name>
+  </Department>
+  <Department>
+    <ID>31</ID>
+    <Name>Business Support / Technical Services / Data Quality</Name>
+  </Department>
+  <Department>
+    <ID>32</ID>
+    <Name>Business Support / Technical Services / General Admin</Name>
+  </Department>
+  <Department>
+    <ID>33</ID>
+    <Name>Business Support / Underwriting Support</Name>
+  </Department>
+  <Department>
+    <ID>34</ID>
+    <Name>Casualty and Professional (50/50)</Name>
+  </Department>
+  <Department>
+    <ID>35</ID>
+    <Name>Ceded Reinsurance</Name>
+  </Department>
+  <Department>
+    <ID>36</ID>
+    <Name>Chief Financial Officer</Name>
+  </Department>
+  <Department>
+    <ID>37</ID>
+    <Name>Claims</Name>
+  </Department>
+  <Department>
+    <ID>38</ID>
+    <Name>Claims - Liability</Name>
+  </Department>
+  <Department>
+    <ID>39</ID>
+    <Name>Claims Management</Name>
+  </Department>
+  <Department>
+    <ID>40</ID>
+    <Name>Claims Propert</Name>
+  </Department>
+  <Department>
+    <ID>41</ID>
+    <Name>Claims Work Comp</Name>
+  </Department>
+  <Department>
+    <ID>42</ID>
+    <Name>Collections</Name>
+  </Department>
+  <Department>
+    <ID>43</ID>
+    <Name>Colony</Name>
+  </Department>
+  <Department>
+    <ID>44</ID>
+    <Name>Colony UW Transportation</Name>
+  </Department>
+  <Department>
+    <ID>45</ID>
+    <Name>Commercial Specialty</Name>
+  </Department>
+  <Department>
+    <ID>46</ID>
+    <Name>Commercial Underwriting</Name>
+  </Department>
+  <Department>
+    <ID>47</ID>
+    <Name>Company Secretariat</Name>
+  </Department>
+  <Department>
+    <ID>48</ID>
+    <Name>Conference Rooms</Name>
+  </Department>
+  <Department>
+    <ID>49</ID>
+    <Name>Contract</Name>
+  </Department>
+  <Department>
+    <ID>50</ID>
+    <Name>Corp UW</Name>
+  </Department>
+  <Department>
+    <ID>51</ID>
+    <Name>Corporate Applications</Name>
+  </Department>
+  <Department>
+    <ID>52</ID>
+    <Name>Corporate Apps</Name>
+  </Department>
+  <Department>
+    <ID>53</ID>
+    <Name>Corporate Communications</Name>
+  </Department>
+  <Department>
+    <ID>54</ID>
+    <Name>CS App Dev</Name>
+  </Department>
+  <Department>
+    <ID>55</ID>
+    <Name>E &amp; O</Name>
+  </Department>
+  <Department>
+    <ID>56</ID>
+    <Name>Enterprise Risk Mgmt</Name>
+  </Department>
+  <Department>
+    <ID>57</ID>
+    <Name>Environmental</Name>
+  </Department>
+  <Department>
+    <ID>58</ID>
+    <Name>EO</Name>
+  </Department>
+  <Department>
+    <ID>59</ID>
+    <Name>Excess Casualty</Name>
+  </Department>
+  <Department>
+    <ID>60</ID>
+    <Name>Executive</Name>
+  </Department>
+  <Department>
+    <ID>61</ID>
+    <Name>External Auditor</Name>
+  </Department>
+  <Department>
+    <ID>62</ID>
+    <Name>Finance</Name>
+  </Department>
+  <Department>
+    <ID>63</ID>
+    <Name>Finance / Financial Control</Name>
+  </Department>
+  <Department>
+    <ID>64</ID>
+    <Name>Finance / Financial Planning &amp; Management Information</Name>
+  </Department>
+  <Department>
+    <ID>65</ID>
+    <Name>Finance / Reserving</Name>
+  </Department>
+  <Department>
+    <ID>66</ID>
+    <Name>Financial Planning</Name>
+  </Department>
+  <Department>
+    <ID>67</ID>
+    <Name>Garage</Name>
+  </Department>
+  <Department>
+    <ID>68</ID>
+    <Name>GCI</Name>
+  </Department>
+  <Department>
+    <ID>69</ID>
+    <Name>General Casualty</Name>
+  </Department>
+  <Department>
+    <ID>70</ID>
+    <Name>General Counsel</Name>
+  </Department>
+  <Department>
+    <ID>71</ID>
+    <Name>Group CFO</Name>
+  </Department>
+  <Department>
+    <ID>72</ID>
+    <Name>Group CIO</Name>
+  </Department>
+  <Department>
+    <ID>73</ID>
+    <Name>Human Resources</Name>
+  </Department>
+  <Department>
+    <ID>74</ID>
+    <Name>Industrial Casualty</Name>
+  </Department>
+  <Department>
+    <ID>75</ID>
+    <Name>Infrastructure</Name>
+  </Department>
+  <Department>
+    <ID>76</ID>
+    <Name>Insight</Name>
+  </Department>
+  <Department>
+    <ID>77</ID>
+    <Name>Internal Audit</Name>
+  </Department>
+  <Department>
+    <ID>78</ID>
+    <Name>IT</Name>
+  </Department>
+  <Department>
+    <ID>79</ID>
+    <Name>IT - Core Services</Name>
+  </Department>
+  <Department>
+    <ID>80</ID>
+    <Name>IT Commercial Specialty</Name>
+  </Department>
+  <Department>
+    <ID>81</ID>
+    <Name>IT Core Services</Name>
+  </Department>
+  <Department>
+    <ID>82</ID>
+    <Name>IT Excess &amp; Surplus</Name>
+  </Department>
+  <Department>
+    <ID>83</ID>
+    <Name>IT Operations</Name>
+  </Department>
+  <Department>
+    <ID>84</ID>
+    <Name>IT Select Markets</Name>
+  </Department>
+  <Department>
+    <ID>85</ID>
+    <Name>Liability</Name>
+  </Department>
+  <Department>
+    <ID>86</ID>
+    <Name>Loss Control -Commercial</Name>
+  </Department>
+  <Department>
+    <ID>87</ID>
+    <Name>Loss Control Mineral</Name>
+  </Department>
+  <Department>
+    <ID>88</ID>
+    <Name>Management</Name>
+  </Department>
+  <Department>
+    <ID>89</ID>
+    <Name>Managing Agency</Name>
+  </Department>
+  <Department>
+    <ID>90</ID>
+    <Name>Marketing</Name>
+  </Department>
+  <Department>
+    <ID>91</ID>
+    <Name>Mineral &amp; Energy Underwr</Name>
+  </Department>
+  <Department>
+    <ID>92</ID>
+    <Name>MKT</Name>
+  </Department>
+  <Department>
+    <ID>93</ID>
+    <Name>Mktg</Name>
+  </Department>
+  <Department>
+    <ID>94</ID>
+    <Name>Operation Services</Name>
+  </Department>
+  <Department>
+    <ID>95</ID>
+    <Name>Operations</Name>
+  </Department>
+  <Department>
+    <ID>96</ID>
+    <Name>Policy Services</Name>
+  </Department>
+  <Department>
+    <ID>97</ID>
+    <Name>Premium Audit</Name>
+  </Department>
+  <Department>
+    <ID>98</ID>
+    <Name>President</Name>
+  </Department>
+  <Department>
+    <ID>99</ID>
+    <Name>President-US</Name>
+  </Department>
+  <Department>
+    <ID>100</ID>
+    <Name>Programs</Name>
+  </Department>
+  <Department>
+    <ID>101</ID>
+    <Name>Property</Name>
+  </Department>
+  <Department>
+    <ID>102</ID>
+    <Name>Records</Name>
+  </Department>
+  <Department>
+    <ID>103</ID>
+    <Name>Reinsurance</Name>
+  </Department>
+  <Department>
+    <ID>104</ID>
+    <Name>Risk Modeling</Name>
+  </Department>
+  <Department>
+    <ID>105</ID>
+    <Name>Safety Management</Name>
+  </Department>
+  <Department>
+    <ID>106</ID>
+    <Name>Sales</Name>
+  </Department>
+  <Department>
+    <ID>107</ID>
+    <Name>Services</Name>
+  </Department>
+  <Department>
+    <ID>108</ID>
+    <Name>Special Property</Name>
+  </Department>
+  <Department>
+    <ID>109</ID>
+    <Name>Specialty Commercial</Name>
+  </Department>
+  <Department>
+    <ID>110</ID>
+    <Name>Staff Underwriting</Name>
+  </Department>
+  <Department>
+    <ID>111</ID>
+    <Name>Syndicate 1200</Name>
+  </Department>
+  <Department>
+    <ID>112</ID>
+    <Name>Syndicate 3245</Name>
+  </Department>
+  <Department>
+    <ID>113</ID>
+    <Name>Tax</Name>
+  </Department>
+  <Department>
+    <ID>114</ID>
+    <Name>Team 1</Name>
+  </Department>
+  <Department>
+    <ID>115</ID>
+    <Name>Team 3</Name>
+  </Department>
+  <Department>
+    <ID>116</ID>
+    <Name>Transportation-Brokerage</Name>
+  </Department>
+  <Department>
+    <ID>117</ID>
+    <Name>Treasury Services</Name>
+  </Department>
+  <Department>
+    <ID>118</ID>
+    <Name>Underwritiing</Name>
+  </Department>
+  <Department>
+    <ID>119</ID>
+    <Name>Underwriting</Name>
+  </Department>
+  <Department>
+    <ID>120</ID>
+    <Name>Underwriting Services</Name>
+  </Department>
+  <Department>
+    <ID>121</ID>
+    <Name>Underwritinig</Name>
+  </Department>
+</Departments>

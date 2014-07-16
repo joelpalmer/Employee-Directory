@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>XML Test</title>
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script>
+        $.ajax({
+            type: "GET",
+            url: "Company.xml",
+            dataType: "xml",
+            success: function (xml) {
+
+                var select = $('#mySelect');
+
+                $(xml).find('Company').each(function () {
+
+                    var name = $(this).find('Name').text();
+                    select.append("<option>" + name + "</option>");
+
+                });
+
+            }
+        });
+
+        
+
+    </script>
+</head>
+<body>
+    <form>
+        <select id="mySelect">
+            
+        </select>
+    </form>
+
+</body>
+</html>

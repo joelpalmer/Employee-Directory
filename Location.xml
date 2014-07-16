@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Locations>
+  <Location>
+    <ID></ID>
+    <Name></Name>
+  </Location>
+  
+  <Location>
+    <ID>2</ID>
+    <Name>Bermuda</Name>
+  </Location>
+  <Location>
+    <ID>3</ID>
+    <Name>Boston</Name>
+  </Location>
+  <Location>
+    <ID>4</ID>
+    <Name>Brussels</Name>
+  </Location>
+  <Location>
+    <ID>5</ID>
+    <Name>Chicago</Name>
+  </Location>
+  <Location>
+    <ID>6</ID>
+    <Name>Dallas</Name>
+  </Location>
+  <Location>
+    <ID>7</ID>
+    <Name>Denver</Name>
+  </Location>
+  
+  
+  
+  <Location>
+    <ID>11</ID>
+    <Name>Greenfield</Name>
+  </Location>
+  <Location>
+    <ID>12</ID>
+    <Name>Home Based Employee</Name>
+  </Location>
+  <Location>
+    <ID>13</ID>
+    <Name>Houston</Name>
+  </Location>
+  <Location>
+    <ID>14</ID>
+    <Name>Irvine</Name>
+  </Location>
+  <Location>
+    <ID>15</ID>
+    <Name>London</Name>
+  </Location>
+  <Location>
+    <ID>16</ID>
+    <Name>Los Angeles</Name>
+  </Location>
+  <Location>
+    <ID>17</ID>
+    <Name>Milwaukie</Name>
+  </Location>
+  <Location>
+    <ID>18</ID>
+    <Name>New York</Name>
+  </Location>
+  <Location>
+    <ID>19</ID>
+    <Name>Peoria</Name>
+  </Location>
+  
+  <Location>
+    <ID>21</ID>
+    <Name>Richmond</Name>
+  </Location>
+  <Location>
+    <ID>22</ID>
+    <Name>Rockwood</Name>
+  </Location>
+  <Location>
+    <ID>23</ID>
+    <Name>San Antonio</Name>
+  </Location>
+  <Location>
+    <ID>24</ID>
+    <Name>Scottsdale</Name>
+  </Location>
+  <Location>
+    <ID>25</ID>
+    <Name>Switzerland</Name>
+  </Location>
+  <Location>
+    <ID>26</ID>
+    <Name>Syracuse</Name>
+  </Location> 
+  <Location>
+    <ID>27</ID>
+    <Name>Brazil</Name>
+  </Location>
+  <Location>
+    <ID>28</ID>
+    <Name>Jersey City</Name>
+  </Location> 
+<Location>
+    <ID>29</ID>
+    <Name>Alpharetta</Name>
+  </Location>
+<Location>
+    <ID>30</ID>
+    <Name>Dubai</Name>
+  </Location> 
+<Location>
+    <ID>31</ID>
+    <Name>Paris</Name>
+  </Location> 
+<Location>
+    <ID>32</ID>
+    <Name>Malta</Name>
+  </Location>  
+  <Location>
+    <ID>33</ID>
+    <Name>Seattle</Name>
+  </Location>  
+  <Location>
+    <ID>34</ID>
+    <Name>San Francisco</Name>
+  </Location>
+  <Location>
+    <ID>35</ID>
+    <Name>Portland</Name>
+  </Location>
+</Locations>

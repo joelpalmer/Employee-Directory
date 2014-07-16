@@ -1,0 +1,245 @@
+﻿<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+    <title>Employee Directory</title>
+    <script src="EDS/camljs.js"></script>
+    <style>
+        .statusText {
+            color: forestgreen;
+        }
+
+        th {
+
+            background-color:thistle !important;
+    
+        }
+    </style>
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.0/css/jquery.dataTables.css">
+
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- DataTables -->
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.0/js/jquery.dataTables.js"></script>
+    <script>
+
+        $.ajax({
+            type: "GET",
+            url: "EDS/Company.xml",
+            dataType: "xml",
+            success: function (xml) {
+
+                var select = $('#companyDDL');
+
+                $(xml).find('Company').each(function () {
+
+                    var name = $(this).find('Name').text();
+                    select.append("<option>" + name + "</option>");
+
+                });
+
+            }
+        });
+
+        //$.ajax({
+        //    type: "GET",
+        //    url: "EDS/Department.xml",
+        //    dataType: "xml",
+        //    success: function (xml) {
+
+        //        var select = $('#departmentDDL');
+
+        //        $(xml).find('Department').each(function () {
+
+        //            var name = $(this).find('Name').text();
+        //            select.append("<option>" + name + "</option>");
+
+        //        });
+
+        //    }
+        //});
+
+        $.ajax({
+            type: "GET",
+            url: "EDS/Location.xml",
+            dataType: "xml",
+            success: function (xml) {
+
+                var select = $('#locationDDL');
+
+                $(xml).find('Location').each(function () {
+
+                    var name = $(this).find('Name').text();
+                    select.append("<option>" + name + "</option>");
+
+                });
+
+            }
+        });
+
+        $.ajax({
+            type: "GET",
+            url: "EDS/JobFamily.xml",
+            dataType: "xml",
+            success: function (xml) {
+
+                var select = $('#jobFamilyDDL');
+
+                $(xml).find('JobFamily').each(function () {
+
+                    var name = $(this).find('Name').text();
+                    select.append("<option>" + name + "</option>");
+
+                });
+
+            }
+        });
+
+    </script>
+
+</head>
+<body>
+    <div>
+        
+        <span class="statusText" id="statusBox"></span>
+        <table style="width: 100%" class="auto-style2" cellpadding="2">
+            <tr>
+                <td style="width: 74px"><label id="Label1">Last Name</label>&nbsp;</td>
+                <td style="width: 177px">
+                    <input id="txtLastName" name="txtLastName" type="text" size="20" />
+                </td>
+                <td style="width: 14px">&nbsp;</td>
+                <td style="width: 78px">
+                    <label id="Label6">Company</label>&nbsp;
+                </td>
+                <td>
+                    <select id="companyDDL" name="companyDDL"></select>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 74px"><label id="Label5">First Name</label>&nbsp;</td>
+                <td style="width: 177px">
+                    <input id="txtFirstName" name="txtFirstName" type="text" size="20" />
+                </td>
+                <td style="width: 14px">&nbsp;</td>
+                <td style="width: 78px">
+                    <label id="Label6">Job Family</label>&nbsp;
+                    &nbsp;
+                </td>
+                <td>
+                    <select id="jobFamilyDDL" name="Select3">
+                       
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 74px"></td>
+                <td style="width: 177px">
+                    &nbsp;
+                </td>
+                <td style="width: 14px">
+                    &nbsp;
+                </td>
+                <td style="width: 78px">
+                    <label id="Label6">Location</label>&nbsp;
+                    &nbsp;
+                </td>
+                <td>
+                    <select id="locationDDL" name="Select1">
+                     
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset name="Group1">
+                        <legend>Employee Type</legend>
+                        <input checked="checked" id="employeeType" name="employeeType" type="radio" tabindex="1" value="Employee" /><label id="Label5">Employee</label>&nbsp;<input name="employeeType" type="radio" tabindex="2" value="Contractor" /><label id="Label5">Contractor</label>
+                    </fieldset>
+                    &nbsp;&nbsp;
+                </td>
+                <td style="width: 14px">&nbsp;</td>
+                <td class="auto-style1" style="width: 78px">
+
+                    &nbsp;<input name="btnStart" id="btnStart" type="button" value="Search" />
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <div id="ancitems">
+
+        <!----<ul id="ancitems">
+
+
+
+        </ul> -->
+        <!-- generated here -->
+
+
+
+    </div>
+
+
+
+    <div class="hacky"></div>
+
+    <script type="text/javascript">
+
+        $("#btnStart").click(function () {
+            SP.SOD.executeFunc("sp.js", "SP.ClientContext", ViewItem);
+        });
+
+        function ViewItem() {
+            var f = "EmployeeDataAzure";
+            "Contractor" == jQuery("input[name=employeeType]:checked").val() && (f = "ContractorsDataAzure");
+            var b = document.getElementById("txtFirstName"),
+                h = document.getElementById("txtLastName"),
+                e = document.getElementById("companyDDL"),
+                a = document.getElementById("jobFamilyDDL"),
+                c = document.getElementById("locationDDL");
+            b = 0 < b.value.length ? CamlBuilder.Expression().TextField("FirstName").Contains(b.value) : CamlBuilder.Expression().TextField("FirstName").IsNotNull();
+            h = 0 < h.value.length ? CamlBuilder.Expression().TextField("LastName").Contains(h.value) : CamlBuilder.Expression().TextField("LastName").IsNotNull();
+            e = 0 < e.options[e.selectedIndex].text.length ? CamlBuilder.Expression().TextField("BusinessUnit").Contains(e.options[e.selectedIndex].text) : CamlBuilder.Expression().TextField("BusinessUnit").IsNotNull();
+            a = 0 < a.options[a.selectedIndex].text.length ? CamlBuilder.Expression().TextField("JobFamily").Contains(a.options[a.selectedIndex].text) : CamlBuilder.Expression().TextField("JobFamily").IsNotNull();
+            c = 0 < c.options[c.selectedIndex].text.length ? CamlBuilder.Expression().TextField("Location").Contains(c.options[c.selectedIndex].text) : CamlBuilder.Expression().TextField("Location").IsNotNull();
+            c = (new CamlBuilder).Where().All(b, h, e, a, c).ToString();
+            b = new SP.ClientContext.get_current;
+            f = b.get_web().get_lists().getByTitle(f);
+            $("#statusBox").html("<b>Searching...</b><br /><br />");
+            a = new SP.CamlQuery;
+            a.set_viewXml("<View><Query>" + c + "</Query><ViewFields><FieldRef Name='FullName' /><FieldRef Name='Title' /><FieldRef Name='Location' /><FieldRef Name='WorkPhone' /><FieldRef Name='ManagerFullName' /><FieldRef Name='BusinessUnit' /><FieldRef Name='Location' /><FieldRef Name='JobFamily' /><FieldRef Name='Department' /><FieldRef Name='Account' /><FieldRef Name='ManagerUserName' /></ViewFields></View>");
+            myItems = f.getItems(a);
+            b.load(myItems, "Include(FullName, Title, Location, WorkPhone, ManagerFullName, BusinessUnit, Department, JobFamily, Account, ManagerUserName)");
+            b.executeQueryAsync(function () {
+                for (var a = "", b = "", c = "", e = "", g = "<table id='employees' border='1'><thead><tr><th><b>Full Name</b></th><th><b>Job Title</b></th><th><b>Location</b></th><th><b>Work Phone</b></th><th><b>Manager</b></th><th><b>Company</b></th><th><b>Department</b></th><th><b>Job Family</b></th></tr></thead><tbody>", f = myItems.getEnumerator() ; f.moveNext() ;) {
+                    var d = f.get_current(),
+                        a = d.get_item("FullName"),
+                        e = d.get_item("Title"),
+                        b = d.get_item("Location"),
+                        c = d.get_item("WorkPhone");
+                    managerName = d.get_item("ManagerFullName");
+                    company = d.get_item("BusinessUnit");
+                    department = d.get_item("Department");
+                    jobFamily = d.get_item("JobFamily");
+                    account = d.get_item("Account");
+                    managerUserName = d.get_item("ManagerUserName");
+                    g += "<tr><td><a href = https://argogroupus-my.sharepoint.com/PersonImmersive.aspx?accountname=i%3A0%23%2Ef%7Cmembership%7C" + account + "%40argous%2Ecom>" + a + "</a></td><td>" + e + "</td><td>" + b + "</td><td>" + c + "</td><td><a href = https://argogroupus-my.sharepoint.com/PersonImmersive.aspx?accountname=i%3A0%23%2Ef%7Cmembership%7C" + managerUserName + "%40argous%2Ecom>" + managerName + "</a></td><td>" + company + "</td><td>" + department + "</td><td>" + jobFamily + "</td></tr>";
+                }
+                g += "</tbody></table>";
+                fieldNameElement = document.getElementById("ancitems");
+                fieldNameElement.innerHTML = g;
+                $("#employees").DataTable();
+                $("#statusBox").html("");
+            });
+        };
+    </script>
+
+
+
+</body>
+</html>

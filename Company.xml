@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Companies>
+  <Company>
+    <ID></ID>
+    <Name></Name>
+  </Company>
+  <Company>
+    <ID>1</ID>
+    <Name>Alteris</Name>
+  </Company>
+  <Company>
+    <ID>2</ID>
+    <Name>Alteris Alternative Risk Solutions</Name>
+  </Company>
+  <Company>
+    <ID>3</ID>
+    <Name>Alteris Public Risk Solutions</Name>
+  </Company>
+  <Company>
+    <ID>4</ID>
+    <Name>Argo Direct Limited</Name>
+  </Company>
+  <Company>
+    <ID>5</ID>
+    <Name>Argo Group</Name>
+  </Company>
+  <Company>
+    <ID>6</ID>
+    <Name>Argo Group US</Name>
+  </Company>
+  <Company>
+    <ID>7</ID>
+    <Name>Argo Group International</Name>
+  </Company>
+  <Company>
+    <ID>8</ID>
+    <Name>Argo International</Name>
+  </Company>
+  <Company>
+    <ID>9</ID>
+    <Name>Argo Pro</Name>
+  </Company>
+  <Company>
+    <ID>10</ID>
+    <Name>Argo Re</Name>
+  </Company>
+  <Company>
+    <ID>11</ID>
+    <Name>Argo Select</Name>
+  </Company>
+  <Company>
+    <ID>12</ID>
+    <Name>Argo Solutions</Name>
+  </Company>
+  <Company>
+    <ID>13</ID>
+    <Name>Argo Surety</Name>
+  </Company>
+  <Company>
+    <ID>14</ID>
+    <Name>Argonaut Insurance Company</Name>
+  </Company>
+  <Company>
+    <ID>17</ID>
+    <Name>Colony Specialty</Name>
+  </Company>
+  <Company>
+    <ID>18</ID>
+    <Name>IROC</Name>
+  </Company>
+  <Company>
+    <ID>19</ID>
+    <Name>Rockwood</Name>
+  </Company>
+  <Company>
+    <ID>20</ID>
+    <Name>Trident</Name>
+  </Company>
+  <Company>
+    <ID>21</ID>
+    <Name>Argo Seguros Brasil</Name>
+  </Company>
+  <Company>
+    <ID>22</ID>
+    <Name>Mattei, a division of Alteris Insurance Services, Inc.</Name>
+  </Company>
+</Companies>
+
+
+
